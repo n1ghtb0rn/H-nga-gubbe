@@ -1,0 +1,150 @@
+* {
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */  
+    font-family: 'Consolas';
+}
+
+#main-container {
+    width: 800px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    font-family: Consolas;
+    font-size: 2.5em;
+}
+
+#header {
+    width: 800px;
+    background-color: lightgray;
+    margin: auto;
+}
+
+#life-indicator {
+    width: 800px;
+    background-color: lightgray;
+    margin: auto;
+    height: 300px;
+}
+
+#guessed-letters {
+    width: 800px;
+    background-color: lightgray;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#all-letters {
+    width: 800px;
+    background-color: lightgray;
+    margin: auto;
+    
+}
+
+#letters-container {
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+p {
+    text-align: center;
+    font-size: 1.5em;
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    margin-top: 5px;
+    background-color: gray;
+    display: inline-block;
+    color: black;
+    
+}
+
+hr {
+    visibility: hidden;
+}
+
+#game-over-container {
+    background-color: black;
+    position: absolute;
+    width: 20%;
+    height: 20%;
+    top: 0px;
+    left: 0px;
+    visibility: hidden;
+}
+
+#game-over {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#game-over-paragraph {
+    text-align: center;
+    font-size: 1.5em;
+    width: auto;
+    margin: auto;
+    margin-top: 20px;
+    background-color: gray;
+    display: inline-block;
+    color: black;
+}
+
+button {
+    margin-top: 50px;
+    display: inline-block;
+    width: 100px;
+    margin-left: auto;
+}
+
+#hp-blocks {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.hp-block {
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    margin: 5px;
+    border-radius: 50px;
+    border: solid;
+    border-color: black;
+}
+
+#hp {
+    visibility: hidden;
+}
+
+.rounded-corners {
+    border-radius: 10px;
+}
+
+#letters-container p {
+    border-radius: 10px;
+    box-shadow: 2px 2px;
+}
+
+#guessed-letters p {
+    border-radius: 10px;
+}
+
+#streak-container {
+    margin-top: 20px;
+}
+
+#streak-label {
+    width: auto;
+}
